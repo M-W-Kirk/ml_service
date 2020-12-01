@@ -20,7 +20,7 @@ router.register(r"mlrequests", MLRequestViewSet, basename="mlrequests")
 # http://<server-ip>/api/ipar_v1/<object-name>
 # PLEASE NOTE: "ipar_v1" is currently used for versioning control.
 urlpatterns = [
-    url(r"^api/v1/", include(router.urls)),
+    url(r"^api/ipar_v1/", include(router.urls)),
 ]
 
 #---END------------------------------------------
