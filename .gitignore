@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# proprietary logo or favicon
+favicon/
+logo/

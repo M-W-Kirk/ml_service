@@ -19,3 +19,10 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
+
+# add custom iParametrics styling:
+admin.site.site_header = "iParametrics ML Service Admin"
+admin.site.site_title = "iParametrics ML Service Admin Portal"
+admin.site.index_title = "Welcome to iParametrics ML Service Admin Portal"
+
+# change the admin panel colors
