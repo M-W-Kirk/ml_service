@@ -131,3 +131,7 @@ dmypy.json
 # proprietary logo or favicon
 favicon/
 logo/
+
+# Github licensing and readme files:
+LICENSE
+README.md
