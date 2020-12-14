@@ -48,6 +48,6 @@ class MLTests(TestCase):
 
         self.assertEqual('OK', response['status'])
 
-        self.assertTrue('Declaration' in response)
-        
-        self.assertEqual('Yes', response['Declaration'])
+        self.assertTrue('label' in response)
+
+        self.assertEqual('Yes', response['label'])
